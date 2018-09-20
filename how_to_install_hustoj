@@ -1,0 +1,14 @@
+1. install ubuntu
+
+sudo apt-get install git
+
+git clone https://github.com/zhblue/hustoj
+
+cd /home/hustoj/trunk/install
+
+sudo bash ./install-ubuntu18.04.sh
+
+ps -ef|grep judged
+
+/home/judge/src/web/include/db_info.inc.php
+=> 관리자 권한으로 수정, 언어, 시간 수정
